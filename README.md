@@ -13,21 +13,21 @@ Work in pairs to complete the following table:
 
 | Value to be converted | number() | String() | Boolean() |
 |-----------------------|----------|----------|-----------|
-| false                 |          |          |           |
-| true                  |          |          |           |
-| 0                     |          |          |           |
-| 1                     |          |          |           |
-| “0”                   |          |          |           |
-| “000”                 |          |          |           |
-| “1”                   |          |          |           |
-| NaN                   |          |          |           |
-| Infinity              |          |          |           |
-| -Infinity             |          |          |           |
-| “”                    |          |          |           |
-| “20”                  |          |          |           |
-| “Twenty”              |          |          |           |
-| null                  |          |          |           |
-| undefinited           |          |          |           |
+| false                 |          |          |     x     |
+| true                  |          |          |     x     |
+| 0                     |     x    |          |           |
+| 1                     |     x    |          |           |
+| “0”                   |          |      x   |           |
+| “000”                 |          |      x   |           |
+| “1”                   |          |      x   |           |
+| NaN                   |          |      x   |           |
+| Infinity              |     x    |          |           |
+| -Infinity             |     x    |          |           |
+| “”                    |          |      x   |           |
+| “20”                  |          |      x   |           |
+| “Twenty”              |          |      x   |           |
+| null                  |          |          |           | object 
+| undefinited           |          |          |           | type undefined
 
 
 ## Part 2:  New contender
