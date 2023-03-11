@@ -1,0 +1,51 @@
+// Challenge 2: Create an information card
+// Create a card holding 3 pieces of information about a person, such as Name, Location, and Hobby.
+// Each piece of information should be a variable.
+// Display the card with the information in the correct place.
+// Example: “Hi, my name is John. I live in South Africa and enjoy drinking homemade wine.”
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Person Card</title>
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Person Card</h2>
+      <p>Hi, my name is <span id="name"></span>.</p>
+      <p>I live in <span id="location"></span> and enjoy <span id="hobby"></span>.</p>
+    </div>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="nameInput">
+      <br>
+      <label for="location">Location:</label>
+      <input type="text" id="locationInput">
+      <br>
+      <label for="hobby">Hobby:</label>
+      <input type="text" id="hobbyInput">
+      <br>
+      <button type="button" onclick="updateCard()">Update Card</button>
+    </form>
+    <script>
+      function updateCard() {
+        // get
+        var name = document.getElementById("nameInput").value;
+        var location = document.getElementById("locationInput").value;
+        var hobby = document.getElementById("hobbyInput").value;
+        // post
+        document.getElementById("name").textContent = name;
+        document.getElementById("location").textContent = location;
+        document.getElementById("hobby").textContent = hobby;
+      }
+    </script>
+  </body>
+</html>
